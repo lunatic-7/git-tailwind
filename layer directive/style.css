@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {  /* This is put .btn in the end of components css, and before utilities css. */
+    .btn {
+        @apply bg-green-700 text-white px-3 py-2 rounded-3xl;
+    }
+}
